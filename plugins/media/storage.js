@@ -1,4 +1,4 @@
-// 👑 Queen Lucia - Media Storage
+// Media Storage
 
 const fs = require('fs-extra');
 const path = require('path');
@@ -30,7 +30,7 @@ const quoted = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
 
 if(!quoted || (!quoted.audioMessage && !quoted.videoMessage)){
 return client.sendMessage(message.key.remoteJid,{
-text:`⚜️ 𝐐𝐮𝐞𝐞𝐧 𝐋𝐮𝐜𝐢𝐚 ⚜️
+text:`🌷ℬℰЅᏆᎽ ℳℐℤUᏦℐ🌷
 
 ❌ 𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐚𝐧 𝐚𝐮𝐝𝐢𝐨 𝐨𝐫 𝐯𝐢𝐝𝐞𝐨`
 });
@@ -125,7 +125,7 @@ ptt:false
 },
 
 {
-name:'vd',
+name:'video',
 aliases:['video'],
 category:'media',
 description:'Play saved video',
