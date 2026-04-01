@@ -1,4 +1,4 @@
-// 👑 Queen Lucia - AI Image Generator
+// 🌷 ℬℰЅᏆᎽ ℳℐℤUᏦℐ - AI Image Generator
 
 const axios = require('axios')
 
@@ -63,7 +63,7 @@ if(!imageUrl) throw new Error('No image returned')
 
 await client.sendMessage(message.key.remoteJid,{
 image:{url:imageUrl},
-caption:`🎨 𝐐𝐮𝐞𝐞𝐧 𝐋𝐮𝐜𝐢𝐚 𝐀𝐈
+caption:`🌷 ℬℰЅᏆᎽ ℳℐℤUᏦℐ Ai
 
 𝐌𝐨𝐝𝐞𝐥 : ${model.name.toUpperCase()}
 𝐏𝐫𝐨𝐦𝐩𝐭 : ${text}`
