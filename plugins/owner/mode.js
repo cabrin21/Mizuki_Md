@@ -1,4 +1,4 @@
-// 👑 Plugin: MODE — Queen Lucia Royal System
+// 👑 Plugin: MODE
 
 const { updateSetting } = require('../../lib/database');
 
@@ -21,10 +21,7 @@ module.exports = {
 
 text:
 `╭━━━〔 ℬℰЅᏆᎽ ℳℐℤUᏦℐ 〕━━━╮
-┃ ⚜ killua 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐄𝐫𝐫𝐨𝐫
-┃
-┃ 𝐓𝐡𝐞 Besty 𝐜𝐚𝐧𝐧𝐨𝐭
-┃ 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝 𝐲𝐨𝐮𝐫 𝐨𝐫𝐝𝐞𝐫.
+┃ ⚜ killua command error
 ┃
 ┃ 𝐔𝐬𝐚𝐠𝐞 :
 ┃ .mode 𝐩𝐮𝐛𝐥𝐢𝐜
@@ -51,10 +48,6 @@ text:
 text:
 `╭━━━〔 ℬℰЅᏆᎽ ℳℐℤUᏦℐ 〕━━━╮
 ┃ ⚜ ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒
-┃
-┃ 𝐓𝐡𝐞 besty 𝐬𝐲𝐬𝐭𝐞𝐦
-┃ 𝐦𝐨𝐝𝐞 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐜𝐡𝐚𝐧𝐠𝐞𝐝.
-┃
 ┃ ۝ 𝐍𝐞𝐰 𝐌𝐨𝐝𝐞 : *${newMode.toUpperCase()}*
 ┃
 ┃ ۝ 𝐎𝐫𝐝𝐞𝐫𝐞𝐝 𝐛𝐲 𝐭𝐡𝐞 𝐭𝐡𝐫𝐨𝐧𝐞
