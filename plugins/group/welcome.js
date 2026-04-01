@@ -5,7 +5,7 @@ module.exports = [
         name: 'welcome',
         aliases: [],
         category: 'group',
-        description: 'Enable/Disable the royal welcome message',
+        description: 'killua welcomes you',
         usage: '.welcome <on/off>',
         
         groupOnly: true,
@@ -32,14 +32,11 @@ module.exports = [
                 const groupDesc = groupConfig.desc || "No description available";
 
                 const welcomeMessage = `
-╭━━━〔 👑 𝐐𝐮𝐞𝐞𝐧 𝐋𝐮𝐜𝐢𝐚 〕━━━╮
-┃ 🌺 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐭𝐡𝐞 𝐤𝐢𝐧𝐠𝐝𝐨𝐦 𝐨𝐟: ${groupName}
+╭━━━〔 🌷 ℬℰЅᏆᎽ ℳℐℤUᏦℐ 〕━━━╮
+┃ 🌺 𝐖𝐞𝐥𝐜𝐨𝐦𝐞: ${groupName}
 ┃ 🕒 𝐃𝐚𝐭𝐞: ${date} | 𝐓𝐢𝐦𝐞: ${time}
 ┃ 📝 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧: ${groupDesc}
 ┃
-┃ 👑 𝕼𝖚𝖊𝖊𝖓 𝕷𝖚𝖈𝖎𝖆 𝐬𝐚𝐲𝐬:
-┃ "𝐌𝐚𝐲 𝐲𝐨𝐮𝐫 𝐬𝐭𝐚𝐲 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐫𝐨𝐲𝐚𝐥 𝐫𝐞𝐚𝐥𝐦
-┃   𝐛𝐞 𝐟𝐢𝐥𝐥𝐞𝐝 𝐰𝐢𝐭𝐡 𝐣𝐨𝐲 𝐚𝐧𝐝 𝐠𝐥𝐨𝐫𝐲 ."
 ╰━━━━━━━━━━━━━━━━━━╯
 `;
 
@@ -49,7 +46,7 @@ module.exports = [
             // Disable welcome
             if (setting === 'off') {
                 updateGroupSetting(chatId, 'welcome', false);
-                return client.sendMessage(chatId, { text: `👑 𝕼𝖚𝖊𝖊𝖓 𝕷𝖚𝖈𝖎𝖆 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐭𝐮𝐫𝐧𝐞𝐝 𝐎𝐅𝐅 .` }, { quoted: message });
+                return client.sendMessage(chatId, { text: `welcom 𝐎𝐅𝐅 .` }, { quoted: message });
             }
 
             // Invalid argument
