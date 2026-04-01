@@ -1,4 +1,4 @@
-// 🌺 Royal Glamour Menu for ℳ¡☡ųƙ¡-𝕸𝖉 🌺
+// 🌺 Menu for ℳ¡☡ųƙ¡-𝕸𝖉 🌺
 
 const fs = require('fs');
 const path = require('path');
@@ -19,7 +19,7 @@ const menuCooldown = new Map();
 
 module.exports = {
 name: 'menu',
-aliases: ['stella','queen'],
+aliases: ['killua','mizuki'],
 category: 'misc',
 description: 'ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒ 𝐌𝐞𝐧𝐮',
 usage: '.menu',
@@ -37,7 +37,7 @@ const now = Date.now();
 if (menuCooldown.get(commandKey) && now - menuCooldown.get(commandKey) < 3000) return;
 menuCooldown.set(commandKey, now);
 
-await client.sendMessage(chatId,{react:{text:"👑",key:message.key}});
+await client.sendMessage(chatId,{react:{text:"🌹",key:message.key}});
 
 const settings = getSettings();
 const prefix = settings.prefix || config.prefix;
