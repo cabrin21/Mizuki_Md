@@ -1,4 +1,4 @@
-// 👑 Queen Lucia - Group Protections
+// 🌷 Mizuki - Group Protections
 
 const { updateGroupSetting, getGroupSettings } = require('../../lib/database');
 
@@ -33,9 +33,9 @@ const config = getGroupSettings(chatId)
 if(!setting){
 
 return client.sendMessage(chatId,{
-text:`⚜️ 𝐐𝐮𝐞𝐞𝐧 𝐋𝐮𝐜𝐢𝐚 ⚜️
+text:`🌷ℬℰЅᏆᎽ ℳℐℤUᏦℐ🌷
 
-👑 ${prot.name}
+🌹 ${prot.name}
 
 𝐒𝐭𝐚𝐭𝐮𝐬 : ${config[prot.cmd] ? '𝐎𝐍' : '𝐎𝐅𝐅'}`
 },{quoted:message})
@@ -130,9 +130,9 @@ badwords = badwords.filter(w=>w!==word)
 updateGroupSetting(chatId,'badwords',badwords)
 
 return client.sendMessage(chatId,{
-text:`⚜️ 𝐖𝐨𝐫𝐝 𝐫𝐞𝐦𝐨𝐯𝐞𝐝
+text:`🌷 𝐖𝐨𝐫𝐝 𝐫𝐞𝐦𝐨𝐯𝐞𝐝
 
-👑 ${word}`
+🌹 ${word}`
 },{quoted:message})
 
 }
@@ -140,7 +140,7 @@ text:`⚜️ 𝐖𝐨𝐫𝐝 𝐫𝐞𝐦𝐨𝐯𝐞𝐝
 if(action === 'list'){
 
 return client.sendMessage(chatId,{
-text:`👑 𝐁𝐚𝐝 𝐖𝐨𝐫𝐝𝐬 𝐋𝐢𝐬𝐭
+text:`🌹 𝐁𝐚𝐝 𝐖𝐨𝐫𝐝𝐬 𝐋𝐢𝐬𝐭
 
 ${badwords.join(', ') || 'None'}`
 },{quoted:message})
