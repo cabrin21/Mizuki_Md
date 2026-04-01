@@ -1,5 +1,5 @@
-// 👑 QUEEN LUCIA AI SYSTEM
-// Royal Text AI Models
+// 👑 MIZUKI AI SYSTEM
+// Officiel Text AI Models
 
 const axios = require('axios');
 
@@ -31,23 +31,20 @@ if (!text) {
 return client.sendMessage(chatId,{
 text:
 
-`╭━━━〔 👑 𝕼𝖚𝖊𝖊𝖓 𝕷𝖚𝖈𝖎𝖆 〕━━━╮
+`╭━━━〔 🌷ℬℰЅᏆᎽ ℳℐℤUᏦℐ 〕━━━╮
 ┃ ⚜ Royal AI Chamber
-┃
-┃ Ask your question
-┃ to the royal intelligence.
 ┃
 ┃ Example :
 ┃ .${model.name} What is AI?
 ┃
-┃ 👑 Lyon King Léonidas
+┃ ♛ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒
 ╰━━━━━━━━━━━━━━━━━━╯`
 },{quoted:message})
 
 }
 
 await client.sendMessage(chatId,{
-react:{text:"👑",key:message.key}
+react:{text:"🌹",key:message.key}
 })
 
 await client.sendPresenceUpdate("composing",chatId)
@@ -77,13 +74,13 @@ await client.sendMessage(chatId,{
 
 text:
 
-`╭━━━〔 👑 𝕼𝖚𝖊𝖊𝖓 𝕷𝖚𝖈𝖎𝖆 〕━━━╮
-┃ ⚜ Royal Response
+`╭━━━〔 🌷ℬℰЅᏆᎽ ℳℐℤUᏦℐ 〕━━━╮
+┃ Response
 ┃
 ┃ ${data.result}
 ┃
 ┃ 🧠 Model : ${model.name}
-┃ 👑 Lyon King Léonidas
+┃ ♛ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒
 ╰━━━━━━━━━━━━━━━━━━╯`
 
 },{quoted:message})
@@ -101,12 +98,7 @@ console.error(error)
 await client.sendMessage(chatId,{
 text:
 
-`👑 Queen Lucia
-
-The royal archives are
-currently unreachable.
-
-Please try again later.`
+`ℬℰЅᏆᎽ ℳℐℤUᏦℐ.`
 
 },{quoted:message})
 
@@ -118,15 +110,14 @@ await client.sendPresenceUpdate("paused",chatId)
 
 }))
 
-// 👑 CUSTOM AI (QUEEN PERSONALITY)
+// 🌷CUSTOM AI (MIZUKI PERSONALITY)
 
 commands.push({
 
-name:'lucia',
-aliases:['queenai'],
+name:'mizuki',
 category:'ai',
-description:'Chat with Queen Lucia AI',
-usage:'.lucia <question>',
+description:'Chat with mizuki AI',
+usage:'.<question>',
 
 execute:async(client,message,args)=>{
 
@@ -135,19 +126,19 @@ const text=args.join(' ')
 
 if(!text){
 return client.sendMessage(chatId,{
-text:"👑 Ask something to Queen Lucia."
+text:"ҜILLUΔ ᴼᶠᶠᴵᶜᴵᴱᴸ."
 },{quoted:message})
 }
 
 await client.sendMessage(chatId,{
-react:{text:"👑",key:message.key}
+react:{text:"🌹",key:message.key}
 })
 
 await client.sendPresenceUpdate("composing",chatId)
 
 const prompt=
-`You are Queen Lucia, the ruler of a digital kingdom.
-You speak elegantly like a queen, intelligent and calm.
+`You are ℬℰЅᏆᎽ ℳℐℤUᏦℐ, the ruler of a digital kingdom.
+You speak elegantly like a besty, intelligent and calm.
 You help users with wisdom and clarity.`
 
 try{
@@ -162,12 +153,11 @@ await client.sendMessage(chatId,{
 
 text:
 
-`╭━━━〔 👑 𝕼𝖚𝖊𝖊𝖓 𝕷𝖚𝖈𝖎𝖆 〕━━━╮
-┃ ⚜ Royal Wisdom
+`╭━━━〔 🌷ℬℰЅᏆᎽ ℳℐℤUᏦℐ 〕━━━╮
 ┃
 ┃ ${data.result}
 ┃
-┃ 👑 Lyon King Léonidas
+┃ ♛ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒
 ╰━━━━━━━━━━━━━━━━━━╯`
 
 },{quoted:message})
@@ -181,7 +171,7 @@ throw new Error("API Error")
 }catch(e){
 
 await client.sendMessage(chatId,{
-text:"👑 The Queen cannot answer right now."
+text:"🌷 The mizuki cannot answer right now."
 },{quoted:message})
 
 }
