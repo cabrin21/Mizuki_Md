@@ -1,4 +1,4 @@
-// 👑 Queen Lucia - Chatbot Control
+// Chatbot Control
 
 const { updateSetting } = require('../../lib/database')
 const { saveRequest, deleteRequest } = require('../../lib/store')
