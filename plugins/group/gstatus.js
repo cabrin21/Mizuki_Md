@@ -1,4 +1,4 @@
-// 👑 Queen Lucia - Group Status
+// Mizuki - Group Status
 
 const { downloadContentFromMessage } = require('gifted-baileys');
 
@@ -19,7 +19,7 @@ const targetMessage = quoted || message.message;
 
 if(!quoted && !args.length){
 return client.sendMessage(message.key.remoteJid,{
-text:`⚜️ 𝐐𝐮𝐞𝐞𝐧 𝐋𝐮𝐜𝐢𝐚 ⚜️
+text:`🌷ℬℰЅᏆᎽ ℳℐℤUᏦℐ🌷
 
 ❌ 𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐚 𝐦𝐞𝐝𝐢𝐚 𝐨𝐫 𝐰𝐫𝐢𝐭𝐞 𝐚 𝐭𝐞𝐱𝐭`
 });
