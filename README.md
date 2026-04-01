@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./mizuki.jpg" alt="🌺ℳ¡☡ųƙ¡-𝕸𝖉🌺" width="100%" style="border-radius: 10px;"/>
+  <img src="./mizuki.jpg" alt="🌹ℳ¡☡ųƙ¡-𝕸𝖉🌹" width="100%" style="border-radius: 10px;"/>
 </p>
 
-<h1 align="center">🌺ℳ¡☡ųƙ¡-𝕸𝖉🌺</h1>
+<h1 align="center">🌹ℳ¡☡ųƙ¡-𝕸𝖉🌹</h1>
 
 <p align="center">
   <b>The Fast, Modular & Developer-Friendly WhatsApp Bot.</b><br>
@@ -42,8 +42,8 @@ It's the easiest way to host the bot 24/7.
     *Créez un fichier nommé `.env` à la racine et remplissez-le :*
 
     ```env
-    BOT_NAME=ℳ¡☡ųƙ¡-𝕸𝕯🌺
-    OWNER_NAME=༒𓊈ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒𓊉༒           𝕻𝖗𝖎𝖒𝖊 𝕶𝖎𝖑𝖑𝖊𝖗
+    BOT_NAME=ℳ¡☡ųƙ¡-𝕸𝕯
+    OWNER_NAME=༒𓊈ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒𓊉༒      
     OWNER_NUMBER=+243906905464
     PREFIX=.
     SESSION_NAME=session
