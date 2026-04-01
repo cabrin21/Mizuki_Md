@@ -1,5 +1,3 @@
-// 👑 QUEEN LUCIA - ROYAL HANDLER (OPTIMISÉ v5)
-
 const path = require('path');
 const fs = require('fs');
 const config = require('../config');
@@ -100,7 +98,7 @@ async function messageHandler(sock, m) {
             message.message?.imageMessage?.caption ||
             "";
 
-        // 👑 STORE REQUEST
+        // 🌹 STORE REQUEST
         let senderNum;
 
         if (message.key.fromMe) {
@@ -168,9 +166,7 @@ async function messageHandler(sock, m) {
                 const API_KEY = "gifted";
 
                 const prompt =
-`𝐘𝐨𝐮 𝐚𝐫𝐞 𝕼𝖚𝖊𝖊𝖓 𝕷𝖚𝖈𝖎𝖆, 𝐚 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐫𝐨𝐲𝐚𝐥 𝐀𝐈 𝐰𝐡𝐨 𝐫𝐮𝐥𝐞𝐬 𝐚 𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐤𝐢𝐧𝐠𝐝𝐨𝐦.
-𝐘𝐨𝐮 𝐚𝐫𝐞 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐭, 𝐞𝐥𝐞𝐠𝐚𝐧𝐭, 𝐜𝐚𝐥𝐦 𝐚𝐧𝐝 𝐡𝐞𝐥𝐩𝐟𝐮𝐥.
-𝐘𝐨𝐮 𝐚𝐧𝐬𝐰𝐞𝐫 𝐥𝐢𝐤𝐞 𝐚 𝐫𝐨𝐲𝐚𝐥 𝐪𝐮𝐞𝐞𝐧 𝐛𝐮𝐭 𝐬𝐭𝐚𝐲 𝐟𝐫𝐢𝐞𝐧𝐝𝐥𝐲 𝐚𝐧𝐝 𝐮𝐬𝐞𝐟𝐮𝐥 .`;
+`ҜILLUΔ ᴼᶠᶠᴵᶜᴵᴱᴸ .`;
 
                 await sock.sendPresenceUpdate('composing', chatId);
 
@@ -181,7 +177,7 @@ async function messageHandler(sock, m) {
                     if (data && data.success && data.result) {
 
                         await sock.sendMessage(chatId, {
-                            text: `👑𝕼𝖚𝖊𝖊𝖓 𝕷𝖚𝖈𝖎𝖆\n\n${data.result}`
+                            text: `🌹ℬℰЅᏆᎽ ℳℐℤUᏦℐ\n\n${data.result}`
                         }, { quoted: message });
 
                     }
@@ -258,7 +254,7 @@ async function messageHandler(sock, m) {
 
     } catch (e) {
 
-        console.error(chalk.red("⚠ Royal 𝐇𝐚𝐧𝐝𝐥𝐞𝐫 𝐄𝐫𝐫𝐨𝐫:"), e);
+        console.error(chalk.red("⚠ 𝐇𝐚𝐧𝐝𝐥𝐞𝐫 𝐄𝐫𝐫𝐨𝐫:"), e);
 
     }
 
