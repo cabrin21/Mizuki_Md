@@ -1,4 +1,4 @@
-/// 👑 Queen Lucia - Tag System (TagAll + HideTag with Image)
+/// 🌷Mizuki - Tag System (TagAll + HideTag with Image)
 
 module.exports = [
 
@@ -6,7 +6,7 @@ module.exports = [
 name: 'tagall',
 aliases: ['everyone'],
 category: 'group',
-description: '𝐒𝐮𝐦𝐦𝐨𝐧 𝐭𝐡𝐞 𝐞𝐧𝐭𝐢𝐫𝐞 𝐤𝐢𝐧𝐠𝐝𝐨𝐦',
+description: 'ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒',
 usage: '.tagall <message>',
 groupOnly: true,
 adminOnly: true,
@@ -33,14 +33,12 @@ list += `👑 @${user.split('@')[0]}\n`
 const caption = `
 ╭━━━〔 ۝ℬℰЅᏆᎽ ℳℐℤUᏦℐ 〕━━━╮
 ┃ ۝ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒ : ${groupName}
-┃ ۝Des
-┃
 ┃ 𝐓𝐡𝐞 ꀘ꒐꒒꒒꒤ꋬ ꄲꊰꊰ꒐ꉔ꒐ꏂ꒒
 ┃
 ┃ 📜 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 :
-┃ ${msg || "𝐇𝐞𝐫 𝐌𝐚𝐣𝐞𝐬𝐭𝐲 𝐝𝐞𝐦𝐚𝐧𝐝𝐬 𝐲𝐨𝐮𝐫 𝐚𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧"}
+┃ ${msg || "I need your attention"}
 ┃
-┃ 👑 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 :
+┃  𝐌𝐞𝐦𝐛𝐞𝐫𝐬 :
 ${list}
 ╰━━━━━━━━━━━━━━━━━━╯
 `
@@ -71,7 +69,7 @@ text: "❌ 𝐓𝐚𝐠𝐀𝐥𝐥 failed."
 name: 'hidetag',
 aliases: ['ht'],
 category: 'group',
-description: '𝐒𝐞𝐜𝐫𝐞𝐭 𝐫𝐨𝐲𝐚𝐥 𝐬𝐮𝐦𝐦𝐨𝐧',
+description: 'I need you',
 usage: '.hidetag <message>',
 groupOnly: true,
 adminOnly: true,
