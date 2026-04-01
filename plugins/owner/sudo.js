@@ -50,7 +50,7 @@ mentions:[target]
 name: 'delsudo',
 aliases: ['rmsudo'],
 category: 'owner',
-description: 'Remove a royal knight',
+description: 'Remove',
 usage: '.delsudo (@tag or reply)',
 ownerOnly: true,
 
@@ -63,7 +63,7 @@ const target = mentioned || quoted;
 if (!target) {
 return client.sendMessage(message.key.remoteJid,{
 text:`ℬℰЅᏆᎽ ℳℐℤUᏦℐ
-⚜️ 𝐍𝐨 𝐫𝐨𝐲𝐚𝐥 𝐤𝐧𝐢𝐠𝐡𝐭 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐝𝐞𝐬𝐢𝐠𝐧𝐚𝐭𝐞𝐝 .`
+🌷 up .`
 },{quoted:message});
 }
 
@@ -74,7 +74,7 @@ let sudos = settings.sudo || [];
 if (!sudos.includes(targetId)) {
 return client.sendMessage(message.key.remoteJid,{
 text:`ℬℰЅᏆᎽ ℳℐℤUᏦℐ
-⚜️ 𝐓𝐡𝐢𝐬 𝐬𝐮𝐛𝐣𝐞𝐜𝐭 𝐡𝐚𝐬 𝐧𝐨 𝐫𝐨𝐲𝐚𝐥 𝐩𝐫𝐢𝐯𝐢𝐥𝐞𝐠𝐞𝐬 .`
+ 𝐩𝐫𝐢𝐯𝐢𝐥𝐞𝐠𝐞𝐬 .`
 },{quoted:message});
 }
 
