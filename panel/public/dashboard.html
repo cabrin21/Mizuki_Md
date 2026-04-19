@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+
+<h1 class="title">⚡ MIZUKI BOT PANEL</h1>
+
+<div class="grid">
+
+  <div class="card">
+    <h3>Bot Control</h3>
+    <button onclick="startBot()">Start Bot</button>
+    <p id="status"></p>
+  </div>
+
+  <div class="card">
+    <h3>QR CODE</h3>
+    <div id="qr"></div>
+  </div>
+
+  <div class="card">
+    <h3>Send Message</h3>
+    <input id="num" placeholder="Number">
+    <input id="msg" placeholder="Message">
+    <button onclick="send()">Send</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
