@@ -1,7 +1,7 @@
 {
-  "name": "🌺ℳ¡☡ųƙ¡-𝕸𝖉🌺",
+  "name": "mizuki-md",
   "version": "1.0.0",
-  "description": "🌺ℳ¡☡ųƙ¡-𝕸𝖉🌺 𝖇𝖑𝖙 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕 𝖗𝖊𝖕𝖗𝖊́𝖘𝖊𝖓𝖙𝖆𝖓𝖙 𝕷𝖆 𝖕𝖗𝖊𝖘𝖙𝖆𝖓𝖈𝖊 𝖉𝖊 𝖗𝖊𝖎𝖓𝖊  - A Modern, Optimized and Modular WhatsApp Bot",
+  "description": "Modern optimized modular WhatsApp bot",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
